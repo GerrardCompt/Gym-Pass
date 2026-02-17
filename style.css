@@ -1,0 +1,115 @@
+/* ===== Global ===== */
+
+body {
+  margin: 0;
+  background: #e6e6e6;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* ===== Card Link ===== */
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+/* ===== Wallet Card ===== */
+
+.wallet-card {
+  width: 340px;
+  background: #0f0f0f;
+  border-radius: 30px;
+  padding: 26px;
+  color: white;
+  box-shadow: 0 30px 70px rgba(0,0,0,0.35);
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.wallet-card:active {
+  transform: scale(0.99);
+}
+
+/* ===== Issuer Row ===== */
+
+.issuer-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.issuer-row img {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+}
+
+.issuer-text {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* ===== Title ===== */
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+
+/* ===== Info Section ===== */
+
+.info-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  opacity: 0.6;
+  margin-bottom: 6px;
+}
+
+.info-values {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 22px;
+}
+
+/* ===== QR ===== */
+
+.qr-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr-container img {
+  width: 190px;
+  height: 190px;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+/* ===== Scan Page ===== */
+
+.scan-page {
+  background: #000;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scan-page img {
+  max-width: 100vw;
+  max-height: 100vh;
+  object-fit: contain;
+  border-radius: 18px;
+  background: #fff;
+}
